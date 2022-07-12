@@ -1,0 +1,4 @@
+Fiz esta consulta apenas para explorar as funcionalidades do Select realizando joins e 
+"Sub-Query"s. Estas visializações são importantes para a confirmações de entendimentos
+sobre os dandos, antes de utilizá-los nas demais ferramentas de análises como
+Python e BIs

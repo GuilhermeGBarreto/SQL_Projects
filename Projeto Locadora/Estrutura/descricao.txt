@@ -1,0 +1,5 @@
+No MySQL existe a possibilidade de fazer o beckup de arquivos de duas maneiras:
+1º Com uma pasta que registra os arquivos por cada tabela. Assim, se banco tiver
+	5 tabelas, serão salvos 5 arquivos diferentes.
+2º Salvar todos os registros em um único arquivo. Neste aquivo único estarão presentes
+	todas as tabelas
