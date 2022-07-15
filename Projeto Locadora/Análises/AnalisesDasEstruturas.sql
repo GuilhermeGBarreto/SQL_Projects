@@ -24,3 +24,11 @@ where a.nota >= (select avg(nota) as Nota from alugueis)
 group by f.titulo
 order by Nota DESC;
 
+
+# FIlmes com as melhores notas e a quantidade de locações
+
+select f.titulo as Titulo, round(avg(a.nota), 1) as Estrelas, count(a.id_aluguel) as Alugueis from alugueis as a
+join filmes as f
+on f.id_filme = a.id_filme
+group by f.titulo
+order by Estrelas DESC;
